@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About FCON MRS";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        The way the system will work is by inviting players to sign up for two types of accounts, a customer account or an industrial, in layman's terms, an account for buying goods and services, and an account for building items for a customer. Accounts will be using a standard username and password combination to sign up, via the EVE SSO, pulling their characters information from the game server, such as the character name, their avatar, and the alliance they belong to. Once a user is signed up, they will be presented with a series of options, depending on their account type. Customer users will be able to view and edit their account information, and will be able to select an item via a search tool on the home page.
+    </p>
+
+    <p>
+        That search tool will be linked to live market data pulled from the EVE Online server , when an item is selected, it will let the customer know what the information surrounding that item is. Such as it's current value at Jita 4-4, the largest market hub in the game. Allowing the user to gauge if the price of the item is cheaper to simply buy off the games market, instead of contracting someone to build it for them. An industrial user will have an similar experience, however this user will be searching for items that the user can supply, to add to the users collection of items he or she can produce.
+    </p>
+
+    <p>
+        This action of adding an item to a users list makes it so when a customer searches for an item, a selected item will show industry users who can create that item for the customer. Provided someone has registered that item to their collection of items they can build. Both users will be held accountable via reporting via the same page bugs reports will be submitted through. Both users will also have a ratings applied to them, much like the ride sharing service 'Uber', once a service is completed, both parties will be rated on their experience with one another, and will grant other users the ability to choose whether or not they would like to trade with a particular user, based on their rating.
+    </p>
+</article>
+
+<aside>
+    <h3>Begin using the FCON MRS</h3>
+    <p>
+        You will need to register and sign in to start using the FCON Manufacturing Request System.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Return Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("Bug/Issue Reporting", "Contact", "Home")</li>
+    </ul>
+</aside>

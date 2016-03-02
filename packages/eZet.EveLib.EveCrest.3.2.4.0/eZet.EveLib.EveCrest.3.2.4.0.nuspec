@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>eZet.EveLib.EveCrest</id>
+    <version>3.2.4.0</version>
+    <title>EveLib.EveCrest</title>
+    <authors>Lars Kristian Dahl</authors>
+    <owners>Lars Kristian Dahl</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ezet/evelib/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ezet/evelib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library for accessing Eve Online CREST.</description>
+    <releaseNotes>https://github.com/ezet/evelib/releases/tag/EveCrest_v3.2.4</releaseNotes>
+    <tags>EveLib EveCrest API EveOnline Eve Online Crest</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.0" />
+      <dependency id="eZet.EveLib.Core" version="3.0.3" />
+      <dependency id="eZet.EveLib.EveAuth" version="3.0.0" />
+    </dependencies>
+  </metadata>
+</package>

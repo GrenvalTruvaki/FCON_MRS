@@ -1,0 +1,30 @@
+﻿@model FCON_MVC.Models.ContactModels
+@{
+    ViewBag.Title = "Issue Reporting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Issue Reporting</h1>
+@using (Html.BeginForm())
+{ 
+    @Html.ValidationSummary(true)
+    <div class="row">
+        @Html.LabelFor(model=>model.InGameName,"In-Game Name:")
+        @Html.EditorFor(model=>model.InGameName)
+        @Html.ValidationMessageFor(model => model.InGameName)
+    </div>
+     <div class="row">
+        @Html.LabelFor(model => model.Email, "Email:")
+        @Html.EditorFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model => model.Comment, "Please describe your issue:")
+        @Html.EditorFor(model => model.Comment)
+        @Html.ValidationMessageFor(model => model.Comment)
+    </div>
+     
+    <div class="row">
+        <input type="submit" value="Submit" />
+     
+    </div>
+}

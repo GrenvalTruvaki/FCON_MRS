@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>eZet.EveLib.Core</id>
+    <version>3.0.3.0</version>
+    <title>EveLib.Core</title>
+    <authors>Lars Kristian Dahl</authors>
+    <owners>Lars Kristian Dahl</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ezet/evelib/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ezet/evelib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core utilities for EveLib.</description>
+    <releaseNotes>https://github.com/ezet/evelib/releases/tag/Core_v3.0.3</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>EveLib Core EveOnline Eve Online</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.0" />
+    </dependencies>
+  </metadata>
+</package>

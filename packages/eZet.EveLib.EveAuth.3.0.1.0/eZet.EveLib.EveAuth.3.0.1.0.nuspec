@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>eZet.EveLib.EveAuth</id>
+    <version>3.0.1.0</version>
+    <title>EveLib.EveAuth</title>
+    <authors>Lars Kristian Dahl</authors>
+    <owners>Lars Kristian Dahl</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ezet/evelib/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ezet/evelib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library for managing Eve Online SSO authentication.</description>
+    <releaseNotes>https://github.com/ezet/evelib/releases/tag/EveAuth_v3.0.1</releaseNotes>
+    <tags>EveLib EveAuth API SSO EveOnline Eve Online</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.2" />
+      <dependency id="eZet.EveLib.Core" version="3.0.2.1" />
+    </dependencies>
+  </metadata>
+</package>
